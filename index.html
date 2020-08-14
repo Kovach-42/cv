@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!--the head holds information about the web page and it tells the browser how it should handel the page-->
+
+  <!--meta element(characterset). meta elements give associated data to
+    your html document. so we are telling the browser that it needs to encode the all the text
+    in this html doc  with the "utf-8" encoding system. utf-8 is the standard encoding that
+    you should be using with HTML 5. UNICODE also includes emojis-->
+  <meta charset="utf-8">
+  <!--meta tags also give information to search engines about the contents of the website-->
+  <!--If the name attribute is set, the meta element provides document-level metadata, applying to the whole page.-->
+  <meta name="description" content="Personal web Site">
+  <meta name="keywords" content="Wealth, Money, Hustle, Cash, Companies">
+  <meta name="author" content="Morton Musonda">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>❤ Morton's Personal Site</title>
+  <!--name of the page-->
+</head>
+
+<body>
+  <!--Image obtained from a server-->
+  <!--<img src="https://i.imgur.com/tbyGzeB.jpeg" alt="Private Jet" />--> <!--If a browser cannot display the image,
+    then an alternative source will be displayed saying what the image is about. lt is also good for search engine optimisation-->
+
+  <!--Image uploaded localy-->
+  <img src="Images\profile picture.png" alt="Private Jet">
+  <h1>Morton Musonda</h1>
+  <p><em>Founder and CEO of <strong><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks">Gorilla Tech</a></strong>.</em></p><!--for italisizing, always use <e> instead of <i>,
+  because it conveys both emphasis and style. Also use <strong></strong> instead of <b></b>, it means that this
+  text has strong meaning rather than using bold which is just for pure stylizing-->
+  <p>Morton founded Gorilla Tech in 2020, his main goal was to create a company that was going to change the
+  environment around him with innovative technology. Morton spends his time coding, watching anime, playing video games
+  and finding new ways to diversify his portfolio</p>
+  <hr>
+  <h3>Education</h3>
+    <ul>
+      <li><a href="https://www.alux.com/">Wealth</a></li>
+      <li><a href="https://www.investopedia.com/search?q=companies">Companies</a></li>
+      <li><a href="https://www.investopedia.com/search?q=money">Money</a></li>
+    </ul>
+  <!--- TABLE------->
+    <h3>Work Experience</h3>
+    <table><!--This is the begining of a table-->
+      <thead><!--This is the table head-->
+        <tr><!--this is a table row which consists of Date and Work-->
+          <th>Date</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>25/12/2017</td><!--table data or table cell-->
+          <td>Data Collector for Trashback Zambia</td>
+        </tr>
+        <tr>
+          <td>06/07/2018</td><!--table data or table cell-->
+          <td>Self Employed</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--- END OF TABLE------->
+    <hr>
+    <!--- TABLE ------->
+    <h3>Skills</h3>
+    <table border="1">
+      <tbody>
+        <tr>
+          <td>Reseacrh</td>
+          <td>★★★★★</td>
+          <td>Graphic Design</td>
+          <td>★★★</td>
+        </tr>
+        <tr>
+          <td>Coding</td>
+          <td>★★</td>
+          <td>Writing</td>
+          <td>★★★★★</td>
+        </tr>
+        <tr>
+          <td>Business Acumen</td>
+          <td>★★★★</td>
+          <td>Drawing</td>
+          <td>★★★★★</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--- END OF TABLE------->
+
+    <!---ANCHOR TAGS--->
+    <h3><a href="hobbies.html">My Hobbies</a></h3>
+    <h3><a href="contact.html">Contact Me</a></h3>
+    <!---END OF ANCHOR TAGS--->
+</body>
+
+</html>
